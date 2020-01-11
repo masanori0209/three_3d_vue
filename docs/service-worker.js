@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.676d867f0a1e425c69d6644e116dfcf0.js"
+  "precache-manifest.fff4f15b18bcb3e96488c62aa7bee606.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "three_3d_vue"});
