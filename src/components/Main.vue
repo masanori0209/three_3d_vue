@@ -165,8 +165,8 @@ export default {
       if (this.mixer) this.mixer.update(this.clock.getDelta())
       if (this.player && this.mixer && this.animations) this.getResult()
       for (var i = 0; i < this.MAXOBJ; i++) {
-        this.deadzoneMesh[i].position.z >= Math.floor(this.MAXLEN/4) ? this.deadzoneMesh[i].position.z = -this.MAXLEN/4 : this.deadzoneMesh[i].position.z += 0.2
-        this.colorMesh[i].position.z    >= Math.floor(this.MAXLEN/4) ? this.colorMesh[i].position.z    = -this.MAXLEN/4 : this.colorMesh[i].position.z    += 0.2
+        this.deadzoneMesh[i].position.z >= Math.floor(this.MAXLEN/4) ? this.deadzoneMesh[i].position.z = -this.MAXLEN/4 : this.deadzoneMesh[i].position.z += 0.5
+        this.colorMesh[i].position.z    >= Math.floor(this.MAXLEN/4) ? this.colorMesh[i].position.z    = -this.MAXLEN/4 : this.colorMesh[i].position.z    += 0.5
       }
       requestAnimationFrame(this.animate)
     },
