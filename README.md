@@ -1,29 +1,4 @@
-# three_3d_vue
+# 簡単に作ったアクションゲーム
 
-## Project setup
-```
-npm install
-```
+![game.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/258186/27f436e4-99f9-202e-5c2a-01bd1e151fa2.gif)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
